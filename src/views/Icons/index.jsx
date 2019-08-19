@@ -42,7 +42,7 @@ function Icons(props) {
             <p className={classes.cardCategoryWhite}>
               Handcrafted by our friends from{" "}
               <a
-                href="https://design.google.com/icons/?ref=creativetime"
+                href="https://design.google.com/icons/index.jsx?ref=creativetime"
                 target="_blank"
               >
                 Google
@@ -53,7 +53,7 @@ function Icons(props) {
             <Hidden only={["sm", "xs"]}>
               <iframe
                 className={classes.iframe}
-                src="https://material.io/icons/"
+                src="https://material.io/icons/index.jsx"
                 title="Icons iframe"
               >
                 <p>Your browser does not support iframes.</p>
@@ -66,7 +66,7 @@ function Icons(props) {
                   the iframe is not working on Mobile and Tablets please visit
                   the icons on their original page on Google. Check the
                   <a
-                    href="https://design.google.com/icons/?ref=creativetime"
+                    href="https://design.google.com/icons/index.jsx?ref=creativetime"
                     target="_blank"
                   >
                     Material Icons

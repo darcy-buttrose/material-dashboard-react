@@ -51,21 +51,21 @@ ajv                        6.9.1   →   6.10.0
 ### Major components changes
 - Changes caused by running [the prettier command](https://prettier.io/docs/en/install.html) for *.jsx*, *.js*, *.html* and *.css* files
 - **src/index.js**
-- **src/components/CustomTabs/CustomTabs.jsx**
+- **src/components/CustomTabs/index.jsx**
 - **src/components/Header/Header.jsx**
-- **src/components/Sidebar/Sidebar.jsx**
-- **src/components/Snackbar/Snackbar.jsx**
+- **src/components/Sidebar/index.jsx**
+- **src/components/Snackbar/index.jsx**
 - **src/components/Snackbar/SnackbarContent.jsx**
-- **src/components/Tasks/Tasks.jsx**
-- **src/views/Notifications/Notifications.jsx**
+- **src/components/Tasks/index.jsx**
+- **src/views/Notifications/index.jsx**
 ### New components
-- **src/components/FixedPlugin/FixedPlugin.jsx**(Left menu used by us for customization - due to this, we've had to add a link for the fonts awesome cdn)
+- **src/components/FixedPlugin/index.jsx**(Left menu used by us for customization - due to this, we've had to add a link for the fonts awesome cdn)
 - **src/components/Header/RTLHeaderLinks.jsx**
-- **src/layouts/Admin.jsx** (instead of Dashboard)
-- **src/layouts/RTL.jsx**
-- **src/views/RTLPage/RTLPage.jsx**
+- **src/layouts/index.jsx** (instead of Dashboard)
+- **src/layouts/index.jsx**
+- **src/views/RTLPage/index.jsx**
 ### Deleted components
-- **src/layouts/Dashboard/Dashboard.jsx** (renamed to Admin)
+- **src/layouts/Dashboard/index.jsx** (renamed to Admin)
 - **src/routes/dashboard.jsx**
 - **src/routes/index.jsx**
 ### Deleted dependencies
@@ -195,12 +195,12 @@ ajv                        6.9.1   →   6.10.0
 ### Added components
 - New card components (`src/components/Card/*`) instead of `src/components/Cards/*`
   - `src/components/Card/Card.jsx`
-  - `src/components/Card/CardAvatar.jsx`
-  - `src/components/Card/CardBody.jsx`
-  - `src/components/Card/CardFooter.jsx`
-  - `src/components/Card/CardHeader.jsx`
-  - `src/components/Card/CardIcon.jsx`
-- `src/components/CustomTabs/CustomTabs.jsx` (instead of `src/components/Cards/TasksCard.jsx`)
+  - `src/components/Card/index.jsx`
+  - `src/components/Card/index.jsx`
+  - `src/components/Card/index.jsx`
+  - `src/components/Card/index.jsx`
+  - `src/components/Card/index.jsx`
+- `src/components/CustomTabs/index.jsx` (instead of `src/components/Cards/TasksCard.jsx`)
 ### Deleted dependencies
 - `material-ui@1.0.0-beta.41`
 ### Added dependencies
@@ -221,7 +221,7 @@ ajv                        6.9.1   →   6.10.0
 
 ## [1.2.0] 2018-04-16
 ### Bug Fixing
-- Renamed `src/containers/App/App.jsx` to `src/layouts/Dashboard/Dashboard.jsx`
+- Renamed `src/containers/App/App.jsx` to `src/layouts/Dashboard/index.jsx`
 - Renamed `src/variables/styles.jsx` to `src/assets/jss/material-dashboard-react.jsx`
 - Moved all the files from `src/variables/styles/` to `src/assets/jss/material-dashboard-react/`
 - Changes caused by the upgrade of `material-ui`

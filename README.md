@@ -109,37 +109,37 @@ material-dashboard-react
     ├── components
     │   ├── Card
     │   │   ├── Card.jsx
-    │   │   ├── CardAvatar.jsx
-    │   │   ├── CardBody.jsx
-    │   │   ├── CardFooter.jsx
-    │   │   ├── CardHeader.jsx
-    │   │   └── CardIcon.jsx
+    │   │   ├── index.jsx
+    │   │   ├── index.jsx
+    │   │   ├── index.jsx
+    │   │   ├── index.jsx
+    │   │   └── index.jsx
     │   ├── CustomButtons
     │   │   └── Button.jsx
     │   ├── CustomInput
-    │   │   └── CustomInput.jsx
+    │   │   └── index.jsx
     │   ├── CustomTabs
-    │   │   └── CustomTabs.jsx
+    │   │   └── index.jsx
     │   ├── FixedPlugin
-    │   │   └── FixedPlugin.jsx
+    │   │   └── index.jsx
     │   ├── Footer
-    │   │   └── Footer.jsx
+    │   │   └── index.jsx
     │   ├── Grid
     │   │   ├── GridContainer.jsx
     │   │   └── GridItem.jsx
     │   ├── Navbars
     │   │   ├── AdminNavbarLinks.jsx
-    │   │   ├── Navbar.jsx
+    │   │   ├── index.jsx
     │   │   └── RTLNavbarLinks.jsx
     │   ├── Sidebar
-    │   │   └── Sidebar.jsx
+    │   │   └── index.jsx
     │   ├── Snackbar
-    │   │   ├── Snackbar.jsx
+    │   │   ├── index.jsx
     │   │   └── SnackbarContent.jsx
     │   ├── Table
-    │   │   └── Table.jsx
+    │   │   └── index.jsx
     │   ├── Tasks
-    │   │   └── Tasks.jsx
+    │   │   └── index.jsx
     │   └── Typography
     │       ├── Danger.jsx
     │       ├── Info.jsx
@@ -149,28 +149,28 @@ material-dashboard-react
     │       ├── Success.jsx
     │       └── Warning.jsx
     ├── layouts
-    │   ├── Admin.jsx
-    │   └── RTL.jsx
+    │   ├── index.jsx
+    │   └── index.jsx
     ├── variables
     │   ├── charts.jsx
     │   └── general.jsx
     └── views
         ├── Dashboard
-        │   └── Dashboard.jsx
+        │   └── index.jsx
         ├── Icons
-        │   └── Icons.jsx
+        │   └── index.jsx
         ├── Maps
-        │   └── Maps.jsx
+        │   └── index.jsx
         ├── Notifications
-        │   └── Notifications.jsx
+        │   └── index.jsx
         ├── RTLPage
-        │   └── RTLPage.jsx
+        │   └── index.jsx
         ├── TableList
-        │   └── TableList.jsx
+        │   └── index.jsx
         ├── Typography
-        │   └── Typography.jsx
+        │   └── index.jsx
         ├── UpgradeToPro
-        │   └── UpgradeToPro.jsx
+        │   └── index.jsx
         └── UserProfile
             └── UserProfile.jsx
 ```

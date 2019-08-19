@@ -106,7 +106,7 @@ class Notifications extends React.Component {
               Material UI
             </a>{" "}
             and styled by{" "}
-            <a target="_blank" href="https://www.creative-tim.com/?ref=mdr-notifications-page">
+            <a target="_blank" href="https://www.creative-tim.com/index.jsx?ref=mdr-notifications-page">
               Creative Tim
             </a>
             . Please checkout the{" "}
