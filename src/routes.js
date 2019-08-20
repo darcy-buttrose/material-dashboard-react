@@ -25,16 +25,16 @@ import Notifications from "@material-ui/icons/Notifications";
 import Unarchive from "@material-ui/icons/Unarchive";
 import Language from "@material-ui/icons/Language";
 // core components/views for Admin layout
-import DashboardPage from "src/views/Dashboard";
-import UserProfile from "views/UserProfile/UserProfile.jsx";
-import TableList from "src/views/TableList";
-import Typography from "src/views/Typography";
-import Icons from "src/views/Icons";
-import Maps from "src/views/Maps";
-import NotificationsPage from "src/views/Notifications";
-import UpgradeToPro from "src/views/UpgradeToPro";
+import DashboardPage from "./views/Dashboard";
+import UserProfile from "./views/UserProfile/UserProfile.jsx";
+import TableList from "./views/TableList";
+import Typography from "./views/Typography";
+import Icons from "./views/Icons";
+import Maps from "./views/Maps";
+import NotificationsPage from "./views/Notifications";
+import UpgradeToPro from "./views/UpgradeToPro";
 // core components/views for RTL layout
-import RTLPage from "src/views/RTLPage";
+import RTLPage from "./views/RTLPage";
 
 const dashboardRoutes = [
   {
