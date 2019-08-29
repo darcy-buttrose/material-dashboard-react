@@ -26,7 +26,7 @@ import Unarchive from "@material-ui/icons/Unarchive";
 import Language from "@material-ui/icons/Language";
 // core components/views for Admin layout
 import DashboardPage from "./views/Dashboard";
-import UserProfile from "./views/UserProfile/UserProfile.jsx";
+import UserProfile from "./views/UserProfile/UserProfile";
 import TableList from "./views/TableList";
 import Typography from "./views/Typography";
 import Icons from "./views/Icons";

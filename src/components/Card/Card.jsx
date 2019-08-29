@@ -25,7 +25,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // core components
-import cardStyle from "./cardStyle.jsx";
+import cardStyle from "./cardStyle";
 
 function Card({ ...props }) {
   const {

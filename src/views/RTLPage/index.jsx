@@ -37,28 +37,28 @@ import BugReport from "@material-ui/icons/BugReport";
 import Code from "@material-ui/icons/Code";
 import Cloud from "@material-ui/icons/Cloud";
 // core components
-import Button from "../../components/CustomButtons/Button.jsx";
-import GridItem from "../../components/Grid/GridItem.jsx";
-import GridContainer from "../../components/Grid/GridContainer.jsx";
+import Button from "../../components/CustomButtons/Button";
+import GridItem from "../../components/Grid/GridItem";
+import GridContainer from "../../components/Grid/GridContainer";
 import Table from "../../components/Table";
 import Tasks from "../../components/Tasks";
 import CustomTabs from "../../components/CustomTabs";
-import Danger from "../../components/Typography/Danger.jsx";
+import Danger from "../../components/Typography/Danger";
 import Card from "../../components/Card/Card";
 import CardHeader from "../../components/Card/CardHeader";
 import CardAvatar from "../../components/Card/CardAvatar";
 import CardIcon from "../../components/Card/CardIcon";
 import CardBody from "../../components/Card/CardBody";
 import CardFooter from "../../components/Card/CardFooter";
-import SnackbarContent from "../../components/Snackbar/SnackbarContent.jsx";
+import SnackbarContent from "../../components/Snackbar/SnackbarContent";
 
 import {
   dailySalesChart,
   emailsSubscriptionChart,
   completedTasksChart
-} from "../../variables/charts.jsx";
+} from "../../variables/charts";
 
-import rtlStyle from "./rtlStyle.jsx";
+import rtlStyle from "./rtlStyle";
 
 import avatar from "../../assets/img/faces/marc.jpg";
 

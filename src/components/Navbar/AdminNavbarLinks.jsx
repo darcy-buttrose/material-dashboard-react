@@ -36,9 +36,9 @@ import Dashboard from "@material-ui/icons/Dashboard";
 import Search from "@material-ui/icons/Search";
 // core components
 import CustomInput from "../CustomInput";
-import Button from "../CustomButtons/Button.jsx";
+import Button from "../CustomButtons/Button";
 
-import headerLinksStyle from "./headerLinksStyle.jsx";
+import headerLinksStyle from "./headerLinksStyle";
 
 class AdminNavbarLinks extends React.Component {
   state = {

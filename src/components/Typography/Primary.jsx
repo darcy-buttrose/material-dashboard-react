@@ -20,7 +20,7 @@ import PropTypes from "prop-types";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import typographyStyle from "./typographyStyle.jsx";
+import typographyStyle from "./typographyStyle";
 
 function Primary({ ...props }) {
   const { classes, children } = props;

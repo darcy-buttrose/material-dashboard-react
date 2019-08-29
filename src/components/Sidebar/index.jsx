@@ -29,10 +29,10 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Icon from "@material-ui/core/Icon";
 // core components
-import AdminNavbarLinks from "../Navbars/AdminNavbarLinks.jsx";
-import RTLNavbarLinks from "../Navbars/RTLNavbarLinks.jsx";
+import AdminNavbarLinks from "../Navbar/AdminNavbarLinks";
+import RTLNavbarLinks from "../Navbar/RTLNavbarLinks";
 
-import sidebarStyle from "./sidebarStyle.jsx";
+import sidebarStyle from "./sidebarStyle";
 
 const Sidebar = ({ ...props }) => {
   // verifies if routeName is the one active (in browser input)

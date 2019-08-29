@@ -15,7 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import { hexToRgb, whiteColor } from "assets/jss/material-dashboard-react.jsx";
+import { hexToRgb, whiteColor } from "../../assets/jss/material-dashboard-react";
 
 const customTabsStyle = {
   cardTitle: {

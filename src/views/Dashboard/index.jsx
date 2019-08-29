@@ -56,7 +56,7 @@ import {
   completedTasksChart
 } from "../../variables/charts";
 
-import dashboardStyle from "./dashboardStyle.jsx";
+import dashboardStyle from "./dashboardStyle";
 
 class Dashboard extends React.Component {
   state = {

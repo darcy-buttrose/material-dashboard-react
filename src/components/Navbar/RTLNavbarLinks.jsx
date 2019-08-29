@@ -35,9 +35,9 @@ import Dashboard from "@material-ui/icons/Dashboard";
 import Search from "@material-ui/icons/Search";
 // core components
 import CustomInput from "../CustomInput";
-import Button from "../CustomButtons/Button.jsx";
+import Button from "../CustomButtons/Button";
 
-import rtlHeaderLinksStyle from "./rtlHeaderLinksStyle.jsx";
+import rtlHeaderLinksStyle from "./rtlHeaderLinksStyle";
 
 class RTLNavbarLinks extends React.Component {
   state = {

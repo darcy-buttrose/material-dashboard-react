@@ -23,13 +23,13 @@ import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 import Hidden from "@material-ui/core/Hidden";
 // core components
-import GridItem from "../../components/Grid/GridItem.jsx";
-import GridContainer from "../../components/Grid/GridContainer.jsx";
-import Card from "../../components/Card/Card.jsx";
+import GridItem from "../../components/Grid/GridItem";
+import GridContainer from "../../components/Grid/GridContainer";
+import Card from "../../components/Card/Card";
 import CardHeader from "../../components/Card/CardHeader";
 import CardBody from "../../components/Card/CardBody";
 
-import iconsStyle from "./iconsStyle.jsx";
+import iconsStyle from "./iconsStyle";
 
 function Icons(props) {
   const { classes } = props;
@@ -42,7 +42,7 @@ function Icons(props) {
             <p className={classes.cardCategoryWhite}>
               Handcrafted by our friends from{" "}
               <a
-                href="https://design.google.com/icons/index.jsx?ref=creativetime"
+                href="https://design.google.com/icons?ref=creativetime"
                 target="_blank"
               >
                 Google
@@ -53,7 +53,7 @@ function Icons(props) {
             <Hidden only={["sm", "xs"]}>
               <iframe
                 className={classes.iframe}
-                src="https://material.io/icons/index.jsx"
+                src="https://material.io/icons"
                 title="Icons iframe"
               >
                 <p>Your browser does not support iframes.</p>
@@ -66,7 +66,7 @@ function Icons(props) {
                   the iframe is not working on Mobile and Tablets please visit
                   the icons on their original page on Google. Check the
                   <a
-                    href="https://design.google.com/icons/index.jsx?ref=creativetime"
+                    href="https://design.google.com/icons/index?ref=creativetime"
                     target="_blank"
                   >
                     Material Icons

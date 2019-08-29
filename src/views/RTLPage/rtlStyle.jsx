@@ -20,7 +20,7 @@ import {
   whiteColor,
   grayColor,
   hexToRgb
-} from "assets/jss/material-dashboard-react.jsx";
+} from "../../assets/jss/material-dashboard-react";
 
 const rtlStyle = {
   successText: {

@@ -15,7 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import { hexToRgb, blackColor } from "assets/jss/material-dashboard-react.jsx";
+import { hexToRgb, blackColor } from "../../../assets/jss/material-dashboard-react";
 
 const cardAvatarStyle = {
   cardAvatar: {

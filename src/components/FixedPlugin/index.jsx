@@ -27,7 +27,7 @@ import imagine2 from "../Sidebar/backgroundImages/sidebar-2.jpg";
 import imagine3 from "../Sidebar/backgroundImages/sidebar-3.jpg";
 import imagine4 from "../Sidebar/backgroundImages/sidebar-4.jpg";
 
-import Button from "components/CustomButtons/Button.jsx";
+import Button from "../CustomButtons/Button";
 
 class FixedPlugin extends Component {
   constructor(props) {

@@ -24,17 +24,17 @@ import "perfect-scrollbar/css/perfect-scrollbar.css";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import Navbar from "../../components/Navbars";
+import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Sidebar from "../../components/Sidebar";
 import FixedPlugin from "../../components/FixedPlugin";
 
 import routes from "../../routes.js";
 
-import rtlStyle from "./rtlStyle.jsx";
+import rtlStyle from "./rtlStyle";
 
 import image from "../../components/Sidebar/backgroundImages/sidebar-2.jpg";
-import logo from "assets/img/reactlogo.png";
+import logo from "../../assets/img/reactlogo.png";
 
 let ps;
 

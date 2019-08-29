@@ -32,7 +32,7 @@ import Edit from "@material-ui/icons/Edit";
 import Close from "@material-ui/icons/Close";
 import Check from "@material-ui/icons/Check";
 // core components
-import tasksStyle from "./tasksStyle.jsx";
+import tasksStyle from "./tasksStyle";
 
 class Tasks extends React.Component {
   state = {

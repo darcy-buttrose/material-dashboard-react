@@ -27,11 +27,11 @@ import Hidden from "@material-ui/core/Hidden";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
-import AdminNavbarLinks from "./AdminNavbarLinks.jsx";
-import RTLNavbarLinks from "./RTLNavbarLinks.jsx";
-import Button from "../CustomButtons/Button.jsx";
+import AdminNavbarLinks from "./AdminNavbarLinks";
+import RTLNavbarLinks from "./RTLNavbarLinks";
+import Button from "../CustomButtons/Button";
 
-import headerStyle from "./headerStyle.jsx";
+import headerStyle from "./headerStyle";
 
 function Header({ ...props }) {
   function makeBrand() {
