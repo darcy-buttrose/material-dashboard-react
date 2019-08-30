@@ -37,20 +37,20 @@ import BugReport from "@material-ui/icons/BugReport";
 import Code from "@material-ui/icons/Code";
 import Cloud from "@material-ui/icons/Cloud";
 // core components
-import Button from "../../components/CustomButtons/Button";
-import GridItem from "../../components/Grid/GridItem";
-import GridContainer from "../../components/Grid/GridContainer";
-import Table from "../../components/Table";
-import Tasks from "../../components/Tasks";
-import CustomTabs from "../../components/CustomTabs";
-import Danger from "../../components/Typography/Danger";
-import Card from "../../components/Card/Card";
-import CardHeader from "../../components/Card/CardHeader";
-import CardAvatar from "../../components/Card/CardAvatar";
-import CardIcon from "../../components/Card/CardIcon";
-import CardBody from "../../components/Card/CardBody";
-import CardFooter from "../../components/Card/CardFooter";
-import SnackbarContent from "../../components/Snackbar/SnackbarContent";
+import {Button} from "material-dashboard-react-components";
+import {GridItem} from "material-dashboard-react-components";
+import {GridContainer} from "material-dashboard-react-components";
+import {Table} from "material-dashboard-react-components";
+import {Tasks} from "material-dashboard-react-components";
+import {CustomTabs} from "material-dashboard-react-components";
+import {Danger} from "material-dashboard-react-components";
+import {Card} from "material-dashboard-react-components";
+import {CardHeader} from "material-dashboard-react-components";
+import {CardAvatar} from "material-dashboard-react-components";
+import {CardIcon} from "material-dashboard-react-components";
+import {CardBody} from "material-dashboard-react-components";
+import {CardFooter} from "material-dashboard-react-components";
+import {SnackbarContent} from "material-dashboard-react-components";
 
 import {
   dailySalesChart,

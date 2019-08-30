@@ -22,15 +22,15 @@ import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 import InputLabel from "@material-ui/core/InputLabel";
 // core components
-import GridItem from "../../components/Grid/GridItem";
-import GridContainer from "../../components/Grid/GridContainer";
-import CustomInput from "../../components/CustomInput";
-import Button from "../../components/CustomButtons/Button";
-import Card from "../../components/Card/Card";
-import CardHeader from "../../components/Card/CardHeader";
-import CardAvatar from "../../components/Card/CardAvatar";
-import CardBody from "../../components/Card/CardBody";
-import CardFooter from "../../components/Card/CardFooter";
+import GridItem from "material-dashboard-react-components";
+import GridContainer from "material-dashboard-react-components";
+import CustomInput from "material-dashboard-react-components";
+import Button from "material-dashboard-react-components";
+import Card from "material-dashboard-react-components";
+import CardHeader from "material-dashboard-react-components";
+import CardAvatar from "material-dashboard-react-components";
+import CardBody from "material-dashboard-react-components";
+import CardFooter from "material-dashboard-react-components";
 
 import avatar from "../../assets/img/faces/marc.jpg";
 

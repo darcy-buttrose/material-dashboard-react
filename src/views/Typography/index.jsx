@@ -21,16 +21,16 @@ import PropTypes from "prop-types";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import Quote from "../../components/Typography/Quote";
-import Muted from "../../components/Typography/Muted";
-import Primary from "../../components/Typography/Primary";
-import Info from "../../components/Typography/Info";
-import Success from "../../components/Typography/Success";
-import Warning from "../../components/Typography/Warning";
-import Danger from "../../components/Typography/Danger";
-import Card from "../../components/Card/Card";
-import CardHeader from "../../components/Card/CardHeader";
-import CardBody from "../../components/Card/CardBody";
+import {Quote} from "material-dashboard-react-components";
+import {Muted} from "material-dashboard-react-components";
+import {Primary} from "material-dashboard-react-components";
+import {Info} from "material-dashboard-react-components";
+import {Success} from "material-dashboard-react-components";
+import {Warning} from "material-dashboard-react-components";
+import {Danger} from "material-dashboard-react-components";
+import {Card} from "material-dashboard-react-components";
+import {CardHeader} from "material-dashboard-react-components";
+import {CardBody} from "material-dashboard-react-components";
 
 const style = {
   typo: {

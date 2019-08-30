@@ -24,14 +24,14 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import AddAlert from "@material-ui/icons/AddAlert";
 // core components
-import GridItem from "../../components/Grid/GridItem";
-import GridContainer from "../../components/Grid/GridContainer";
-import Button from "../../components/CustomButtons/Button";
-import SnackbarContent from "../../components/Snackbar/SnackbarContent";
-import Snackbar from "../../components/Snackbar";
-import Card from "../../components/Card/Card";
-import CardHeader from "../../components/Card/CardHeader";
-import CardBody from "../../components/Card/CardBody";
+import {GridItem} from "material-dashboard-react-components";
+import {GridContainer} from "material-dashboard-react-components";
+import {Button} from "material-dashboard-react-components";
+import {SnackbarContent} from "material-dashboard-react-components";
+import {Snackbar} from "material-dashboard-react-components";
+import {Card} from "material-dashboard-react-components";
+import {CardHeader} from "material-dashboard-react-components";
+import {CardBody} from "material-dashboard-react-components";
 
 const styles = {
   cardCategoryWhite: {

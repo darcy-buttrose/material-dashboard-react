@@ -23,11 +23,11 @@ import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 import Hidden from "@material-ui/core/Hidden";
 // core components
-import GridItem from "../../components/Grid/GridItem";
-import GridContainer from "../../components/Grid/GridContainer";
-import Card from "../../components/Card/Card";
-import CardHeader from "../../components/Card/CardHeader";
-import CardBody from "../../components/Card/CardBody";
+import {GridItem} from "material-dashboard-react-components";
+import {GridContainer} from "material-dashboard-react-components";
+import {Card} from "material-dashboard-react-components";
+import {CardHeader} from "material-dashboard-react-components";
+import {CardBody} from "material-dashboard-react-components";
 
 import iconsStyle from "./iconsStyle";
 

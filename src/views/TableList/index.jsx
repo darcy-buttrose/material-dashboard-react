@@ -21,12 +21,12 @@ import PropTypes from "prop-types";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import GridItem from "../../components/Grid/GridItem";
-import GridContainer from "../../components/Grid/GridContainer";
-import Table from "../../components/Table";
-import Card from "../../components/Card/Card";
-import CardHeader from "../../components/Card/CardHeader";
-import CardBody from "../../components/Card/CardBody";
+import {GridItem} from "material-dashboard-react-components";
+import {GridContainer} from "material-dashboard-react-components";
+import {Table} from "material-dashboard-react-components";
+import {Card} from "material-dashboard-react-components";
+import {CardHeader} from "material-dashboard-react-components";
+import {CardBody} from "material-dashboard-react-components";
 
 const styles = {
   cardCategoryWhite: {
